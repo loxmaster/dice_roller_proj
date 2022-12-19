@@ -1,5 +1,5 @@
 const dieRolls: number[] = new Array(4);
-const arr = roll(41, 4, 4, 0, 7, 7);
+const arr = roll(41, 2, 2, 0, 7, 7);
 arr.forEach((dmg) => console.log(dmg));
 
 function roll(attacks, toHit, toWound, rend, save, ward): number[] {

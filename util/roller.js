@@ -1,5 +1,5 @@
 var dieRolls = new Array(4);
-var arr = roll(41, 4, 4, 0, 7, 7);
+var arr = roll(41, 2, 2, 0, 7, 7);
 arr.forEach(function (dmg) { return console.log(dmg); });
 function roll(attacks, toHit, toWound, rend, save, ward) {
     var arr = new Array(attacks).fill(0);
