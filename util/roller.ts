@@ -19,7 +19,7 @@ function roll(att,def): number[] {
     let damage: number = 0;
     for (let j = 0; j < att[0]; j++) {
       getRandomIntArray(dieRolls);
-      isDmg(dieRolls,attacker,defender);
+      isDmg(dieRolls,att,def);
     }
     arr[damage]++;
   }
